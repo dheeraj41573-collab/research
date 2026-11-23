@@ -1,0 +1,331 @@
+.menu{
+    position: relative;
+}
+.menu:hover .menu-bar-1,
+.menu:focus-within .menu-bar-1{
+    display: block !important;
+    position: absolute !important;
+    z-index: 50 !important;
+    margin-left: 5px !important;
+    width: max-content !important;
+    min-width: 200px !important;
+}
+
+.hover-me:hover > .menu-bar-2,
+.hover-me:focus-within > .menu-bar-2{
+    display: block !important;
+    position: absolute !important;
+    z-index: 50 !important;
+    top: 0 !important;
+    left: 100% !important;
+    width: max-content !important;
+    min-width: 60px !important;
+    padding: 2px 4px !important;
+}
+
+.hover-me:hover > .menu-bar-22,
+.hover-me:focus-within > .menu-bar-22{
+    display: block !important;
+    position: absolute !important;
+    z-index: 50 !important;
+    top: 0 !important;
+    left: 100% !important;
+    width: max-content !important;
+    min-width: 0 !important;
+    max-width: max-content !important;
+    padding: 1px 3px !important;
+}
+
+
+.hover-me:hover > .menu-bar-12,
+.hover-me:focus-within > .menu-bar-12{
+    display: block !important;
+    position: absolute !important;
+    z-index: 50 !important;
+    top: 0 !important;
+    left: 100% !important;
+    width: max-content !important;
+    min-width: 100px !important;
+}
+.hover-me:hover > .menu-bar-3,
+.hover-me:focus-within > .menu-bar-3{
+    display: block !important;
+    position: absolute !important;
+    z-index: 50 !important;
+    top: 0 !important;
+    left: 100% !important;
+    width: max-content !important;
+    min-width: 100px !important;
+}
+.hover-me:hover > .menu-bar-13,
+.hover-me:focus-within > .menu-bar-13{
+    display: block !important;
+    position: absolute !important;
+    z-index: 50 !important;
+    top: -6px !important;
+    left: 100% !important;
+    width: max-content !important;
+    min-width: 120px !important;
+}
+.hover-me:hover > .menu-bar-10,
+.hover-me:focus-within > .menu-bar-10{
+    display: block !important;
+    position: absolute !important;
+    z-index: 50 !important;
+    top: -40px !important;
+    left: 100% !important;
+    width: max-content !important;
+    min-width: 120px !important;
+}
+
+.hover-me:hover > .menu-bar-4,
+.hover-me:focus-within > .menu-bar-4{
+    display: block !important;
+    position: absolute !important;
+    z-index: 50 !important;
+    top: 0 !important;
+    left: 100% !important;
+    width: max-content !important;
+    min-width: 80px !important;
+}
+
+.hover-me:hover > .menu-bar-5,
+.hover-me:focus-within > .menu-bar-5{
+    display: block !important;
+    position: absolute !important;
+    z-index: 50 !important;
+    top: 0 !important;
+    left: 100% !important;
+    width: max-content !important;
+    min-width: 110px !important;
+}
+
+.hover-me:hover > .menu-bar-6,
+.hover-me:focus-within > .menu-bar-6{
+    display: block !important;
+    position: absolute !important;
+    z-index: 50 !important;
+    top: 0 !important;
+    left: 100% !important;
+    width: max-content !important;
+    min-width: 110px !important;
+}
+
+.hover-me:hover > .menu-bar-7,
+.hover-me:focus-within > .menu-bar-7{
+    display: block !important;
+    position: absolute !important;
+    z-index: 50 !important;
+    top: 0 !important;
+    left: 100% !important;
+    width: max-content !important;
+    min-width: 100px !important;
+}
+
+.hover-me:hover > .menu-bar-9,
+.hover-me:focus-within > .menu-bar-9{
+    display: block !important;
+    position: absolute !important;
+    z-index: 50 !important;
+    top: 5px !important;
+    left: 100% !important;
+    width: max-content !important;
+    min-width: 110px !important;
+}
+
+.hover-me{
+    position: relative;
+}
+
+.menu-mobile:hover .menu-bar-1{
+    display: block;
+    position: absolute;
+    z-index: 20;
+    margin-left: 15px;
+}
+.hover-mobile:hover .menu-bar-2{
+    display: block;
+    position: absolute;
+    z-index: 20;
+    margin-left: 15px;
+    width: 200px;
+}
+
+.menu-right{
+    right: 0 !important;
+    left: auto !important;
+}
+
+/* FORCE RESET default browser UL/Tailwind styles for ALL dropdowns — removes left padding, margin, bullets */
+nav ul,
+[class^="menu-bar-"] ul,
+[class*=" menu-bar-"] ul,
+.menu-bar-1 ul,
+.menu-bar-2 ul,
+.menu-bar-3 ul,
+.menu-bar-4 ul,
+.menu-bar-5 ul,
+.menu-bar-6 ul,
+.menu-bar-7 ul,
+.menu-bar-9 ul,
+.menu-bar-10 ul,
+.menu-bar-12 ul,
+.menu-bar-13 ul,
+.menu-bar-22 ul{
+  list-style: none !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+  margin-inline-start: 0 !important;
+  margin-inline-end: 0 !important;
+  -webkit-padding-start: 0 !important;
+}
+
+.menu-bar-1 ul,
+.menu-bar-2 ul,
+.menu-bar-3 ul,
+.menu-bar-22 ul{
+  white-space: nowrap !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.menu-bar-1,
+.menu-bar-2,
+.menu-bar-3,
+.menu-bar-22{
+  padding: 1px 3px !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Fix dropdown arrow alignment + COMFORTABLE vertical spacing (not too tight, not too loose) */
+[class^="menu-bar-"] ul li,
+[class*=" menu-bar-"] ul li{
+  display: block !important;
+  width: 100% !important;
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  line-height: 1.25 !important;    /* comfortable line-height */
+}
+[class^="menu-bar-"] ul li > a,
+[class*=" menu-bar-"] ul li > a{
+  display: block !important;
+  width: 100% !important;
+  text-decoration: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  line-height: 1.25 !important;
+}
+
+/* The INNER span inside Link (the one that has Tailwind py-0.3/0.5 classes) — THIS controls vertical space! */
+[class^="menu-bar-"] ul li > a > span,
+[class*=" menu-bar-"] ul li > a > span,
+[class^="menu-bar-"] ul li > a > span.relative.inline-flex,
+[class*=" menu-bar-"] ul li > a > span.relative.inline-flex{
+  display: flex !important;
+  width: 100% !important;
+  align-items: center !important;
+  padding: 2px 5px !important;    /* short-form: vertical=2px (comfortable), horizontal=5px — OVERRIDES Tailwind py-* */
+  gap: 0 !important;
+  line-height: 1.25 !important;
+  min-height: 0 !important;
+  height: auto !important;
+}
+/* Deep inner text span (ml-1.5 wali) */
+[class^="menu-bar-"] ul li > a > span > span:first-child,
+[class*=" menu-bar-"] ul li > a > span > span:first-child{
+  padding: 0 !important;
+  margin: 0 !important;
+  line-height: 1.25 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+}
+[class^="menu-bar-"] ul li > a > span svg.ml-auto,
+[class*=" menu-bar-"] ul li > a > span svg.ml-auto{
+  flex-shrink: 0 !important;
+  width: 1.1rem !important;
+  height: 1.1rem !important;
+}
+
+/* Force-hide all dropdowns after navigation click until mouse leaves header */
+.dropdown-suppress .menu:hover .menu-bar-1,
+.dropdown-suppress .menu:focus-within .menu-bar-1,
+.dropdown-suppress .hover-me:hover > [class^="menu-bar-"],
+.dropdown-suppress .hover-me:focus-within > [class^="menu-bar-"],
+.dropdown-suppress [class^="menu-bar-"]{
+  display: none !important;
+}
+
+/* Responsive adjustments for dropdowns */
+@media (max-width: 1024px){
+  .menu:hover .menu-bar-1,
+  .menu:focus-within .menu-bar-1{
+    position: absolute !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 95vw !important;
+    min-width: 0 !important;
+  }
+  .hover-me:hover > .menu-bar-2,
+  .hover-me:focus-within > .menu-bar-2,
+  .hover-me:hover > .menu-bar-3,
+  .hover-me:focus-within > .menu-bar-3,
+  .hover-me:hover > .menu-bar-4,
+  .hover-me:focus-within > .menu-bar-4,
+  .hover-me:hover > .menu-bar-5,
+  .hover-me:focus-within > .menu-bar-5,
+  .hover-me:hover > .menu-bar-6,
+  .hover-me:focus-within > .menu-bar-6,
+  .hover-me:hover > .menu-bar-7,
+  .hover-me:focus-within > .menu-bar-7{
+    left: auto !important;
+    right: 0 !important;
+    width: 75vw !important;
+    min-width: 0 !important;
+    top: 0 !important;
+    max-height: calc(100vh - 140px);
+    overflow-y: auto;
+  }
+  .menu-right{
+    right: auto !important;
+    left: 0 !important;
+  }
+}
+
+@media (max-width: 640px){
+  .menu:hover .menu-bar-1,
+  .menu:focus-within .menu-bar-1{
+    position: static !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    margin-left: 0 !important;
+  }
+  .hover-me:hover > .menu-bar-2,
+  .hover-me:focus-within > .menu-bar-2,
+  .hover-me:hover > .menu-bar-3,
+  .hover-me:focus-within > .menu-bar-3,
+  .hover-me:hover > .menu-bar-4,
+  .hover-me:focus-within > .menu-bar-4,
+  .hover-me:hover > .menu-bar-5,
+  .hover-me:focus-within > .menu-bar-5,
+  .hover-me:hover > .menu-bar-6,
+  .hover-me:focus-within > .menu-bar-6,
+  .hover-me:hover > .menu-bar-7,
+  .hover-me:focus-within > .menu-bar-7{
+    position: static !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    top: 0 !important;
+  }
+}

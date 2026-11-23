@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  height:100vh;
+  position: relative;
+  margin: 0;
+  min-height: 100%;
+  
+}
+
+.ql-editor {
+  font-size: 1.05rem;
+}
+
+.post-content p {
+  margin-bottom: 0.5rem;
+}
+
+.post-content h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin: 1.5rem 0;
+}
+
+.post-content h2 {
+  font-size: 1.4rem;
+  font-family: sans-serif;
+  margin: 1.5rem 0;
+}
+
+.post-content a {
+  color: rgb(73, 149, 199);
+  text-decoration: none;
+}
+
+.post-content a:hover {
+  text-decoration: underline;
+}
+
+.dark .post-content a {
+  color: red;
+}
+
+/* ========== Achievement Section — Highlighted DOI Links ========== */
+.achievement-paper {
+  padding: 0.75rem 1rem;
+  border-left: 4px solid #10b981;
+  background: linear-gradient(90deg, rgba(16, 185, 129, 0.06) 0%, rgba(16, 185, 129, 0.00) 75%);
+  border-radius: 0 8px 8px 0;
+  transition: box-shadow 0.25s ease, transform 0.25s ease, background 0.25s ease;
+}
+.achievement-paper:hover {
+  background: linear-gradient(90deg, rgba(16, 185, 129, 0.12) 0%, rgba(16, 185, 129, 0.02) 75%);
+  box-shadow: 0 4px 14px -6px rgba(16, 185, 129, 0.35);
+  transform: translateX(2px);
+}
+
+.achievement-title {
+  font-weight: 700;
+  color: #1f2937;
+}
+.dark .achievement-title {
+  color: #e5e7eb;
+}
+
+.achievement-journal {
+  font-style: italic;
+  color: #4b5563;
+}
+.dark .achievement-journal {
+  color: #9ca3af;
+}
+
+/* DOI Link — HIGHLIGHTED, eye-catching */
+.achievement-doi-link {
+  display: inline-block;
+  margin-top: 4px;
+  font-weight: 600;
+  font-size: 0.95em;
+  color: #2563eb;
+  background: linear-gradient(90deg, #dbeafe 0%, #e0e7ff 100%);
+  padding: 3px 10px;
+  border-radius: 9999px;
+  text-decoration: none !important;
+  border: 1px solid #93c5fd;
+  box-shadow: 0 1px 3px rgba(37, 99, 235, 0.15);
+  transition: all 0.25s ease;
+  word-break: break-all;
+}
+.achievement-doi-link::before {
+  content: "🔗 ";
+}
+.achievement-doi-link:hover {
+  color: #ffffff;
+  background: linear-gradient(90deg, #2563eb 0%, #6366f1 100%);
+  border-color: #2563eb;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.45);
+  transform: translateY(-1px);
+  text-decoration: none !important;
+}
+.achievement-doi-link:visited {
+  color: #4f46e5;
+}
+.achievement-doi-link:visited:hover {
+  color: #ffffff;
+}
+
+/* Dark mode DOI link */
+.dark .achievement-doi-link {
+  color: #bfdbfe;
+  background: linear-gradient(90deg, rgba(37, 99, 235, 0.25) 0%, rgba(99, 102, 241, 0.25) 100%);
+  border-color: #3b82f6;
+}
+.dark .achievement-doi-link:hover {
+  color: #ffffff;
+  background: linear-gradient(90deg, #2563eb 0%, #6366f1 100%);
+}

@@ -1,0 +1,43 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+// .env
+=======
+.env
+>>>>>>> 1318606 (feat: add botanical media assets and content pages)
+=======
+>>>>>>> 3c88e55 (first commit)
+dist
+dist-ssr
+*.local
+//.env
+=======
+.env
+>>>>>>> 3c88e55 (first commit)
+=======
+# .env
+>>>>>>> d68065d (update)
+=======
+.env
+>>>>>>> 97fa770 (Update code)
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
