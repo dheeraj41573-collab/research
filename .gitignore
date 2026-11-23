@@ -1,0 +1,39 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+client
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+//.env
+=======
+.env
+>>>>>>> 3c88e55 (first commit)
+=======
+# .env
+>>>>>>> d68065d (update)
+=======
+.env
+>>>>>>> 97fa770 (Update code)
+
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
